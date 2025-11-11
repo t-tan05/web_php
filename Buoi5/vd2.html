@@ -1,0 +1,27 @@
+<a href="vd2.php?mssv=1&hky=12025">Diem HK1-sv1</a> <br>
+<a href="vd2.php?mssv=2&hky=12025">Diem HK1-sv2</a> <br>
+
+<form action="vd2.php" method="get">
+    MSSV: <input type="text" name="mssv"> <br>
+    Hoc ky <input type="radio" name="hk" value="12025"> Hoc ky 1
+    <input type="radio" name="hk" id="" value="12025"> Hoc ky 2 <br>
+    <input type="submit" value="Xem" name="sm">
+    <input type="submit" value="In" name="sm">
+</form>
+
+<hr>
+<form action="vd2.php" method="post">
+    MSSV: <input type="text" name="mssv"> <br>
+    Hoc ky <input type="radio" name="hk" value="12025"> Hoc ky 1
+    <input type="radio" name="hk" id="" value="12025"> Hoc ky 2 <br>
+    <input type="submit" value="Xem" name="sm">
+    <input type="submit" value="In" name="sm">
+</form>
+
+<hr>
+
+<form action="vd2.php" method="post" enctype="multipart/form-data">
+    MSSV <input type="text" name="mssv" id=""> <br>
+    Hinh <input type="file" name="h" id="">
+    <input type="submit" value="Gui">
+</form>
