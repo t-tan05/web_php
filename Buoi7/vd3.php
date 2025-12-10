@@ -1,6 +1,6 @@
 <?php
     if(!isset($_SESSION))
-        session_start(); //php.int
+        session_start(); //php.ini
     $n = isset($_SESSION['dem']) ? $_SESSION['dem'] : 0;
 
     $n++;
